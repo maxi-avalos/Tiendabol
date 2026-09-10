@@ -1,0 +1,2864 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TiendaBol - eCommerce Website</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo/pelota2.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style-prefix.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <div class="overlay" data-overlay></div>
+
+  <!--
+
+    - HEADER
+  -->
+
+  <header>
+
+    <div class="header-top">
+
+      <div class="container">
+
+        <ul class="header-social-container">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="header-alert-news">
+          <p>
+            <b>Las mejores estan aca</b>
+            Solo por hoy aprovecha y llevatelas desde - $15000
+          </p>
+        </div>
+
+        <div class="header-top-actions">
+
+          <select name="currency">
+
+            <option value="usd">USD &dollar;</option>
+            <option value="pes">PES &dollar;</option>
+
+          </select>
+
+          <select name="language">
+
+            <option value="en-US">English</option>
+            <option value="es-ES">Espa&ntilde;ol</option>
+            <option value="fr">Fran&ccedil;ais</option>
+
+          </select>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="header-main">
+
+      <div class="container">
+
+        <a href="#" class="header-logo">
+          <img src="./assets/images/logo/tienda de futbol.png" alt="TiendaBol" width="100" height="">
+        </a>
+
+        <div class="header-search-container">
+
+          <input type="search" name="search" class="search-field" placeholder="Enter your product name...">
+
+          <button class="search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="header-user-actions">
+
+          <button class="action-btn">
+            <ion-icon name="person-outline"></ion-icon>
+          </button>
+
+          <button class="action-btn">
+            <ion-icon name="heart-outline"></ion-icon>
+            <span class="count">0</span>
+          </button>
+
+          <button class="action-btn">
+            <ion-icon name="bag-handle-outline"></ion-icon>
+            <span class="count">0</span>
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <nav class="desktop-navigation-menu">
+
+      <div class="container">
+
+        <ul class="desktop-menu-category-list">
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Inicio</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Remeras</a>
+
+            <div class="dropdown-panel">
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Ascenso</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Acassuso</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">All Boys</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Almirante Brown</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Deportivo Moron</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/asc-banner-1.jpg" alt="Remeras de equipos de futbol del ascenso argentino" width="250" heigt="119"
+                      height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Futbol Europa</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Premier League</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">LaLiga</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Ligue1</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Bundesliga</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Serie A</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/europa-banner-1.jpg" alt="Remeras de equipos de futbol europeo" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Selecciones</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">America</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Europa</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Africa</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Asia</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Oceania</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/selec-banner-1.jpg" alt="Remeras de selecciones nacionales" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Futbol Argentino</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Boca</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Independiente</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Racing</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">River</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">San Lorenzo</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/argen-banner-1.jpg" alt="Remeras de equipos de futbol argentino" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Pelotas</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Competencias Internacionales</a>
+              </li>
+
+
+              <li class="dropdown-item">
+                <a href="#">Competencias Sudamericanas</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Compertencias Europeas</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Estadios</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Argentina</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Europa</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Mundial</a>
+              </li>
+
+            </ul>
+          </li>
+
+        
+          <li class="menu-category">
+            <a href="#" class="menu-title">Este trabajo</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+    <div class="mobile-bottom-navigation">
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="bag-handle-outline"></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="home-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="heart-outline"></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="grid-outline"></ion-icon>
+      </button>
+
+    </div>
+
+    <nav class="mobile-navigation-menu  has-scrollbar" data-mobile-menu>
+
+      <div class="menu-top">
+        <h2 class="menu-title">Menu</h2>
+
+        <button class="menu-close-btn" data-mobile-menu-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="mobile-menu-category-list">
+
+        <li class="menu-category">
+          <a href="#" class="menu-title">Home</a>
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Men's</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Shirt</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Shorts & Jeans</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Safety Shoes</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Wallet</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Women's</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Dress & Frock</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Earrings</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Necklace</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Makeup Kit</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Jewelry</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Earrings</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Couple Rings</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Necklace</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Bracelets</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Perfume</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Clothes Perfume</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Deodorant</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Flower Fragrance</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Air Freshener</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+          <a href="#" class="menu-title">Blog</a>
+        </li>
+
+        <li class="menu-category">
+          <a href="#" class="menu-title">Hot Offers</a>
+        </li>
+
+      </ul>
+
+      <div class="menu-bottom">
+
+        <ul class="menu-category-list">
+
+          <li class="menu-category">
+
+            <button class="accordion-menu" data-accordion-btn>
+              <p class="menu-title">Language</p>
+
+              <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+            </button>
+
+            <ul class="submenu-category-list" data-accordion>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">English</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">Espa&ntilde;ol</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">Fren&ccedil;h</a>
+              </li>
+
+            </ul>
+
+          </li>
+
+          <li class="menu-category">
+            <button class="accordion-menu" data-accordion-btn>
+              <p class="menu-title">Currency</p>
+              <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+            </button>
+
+            <ul class="submenu-category-list" data-accordion>
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">USD &dollar;</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">PES &dollar;;</a>
+              </li>
+            </ul>
+          </li>
+
+        </ul>
+
+        <ul class="menu-social-container">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+
+
+
+  <!--
+    - MAIN
+  -->
+
+  <main>
+
+    <!--
+      - BANNER
+    -->
+
+    <div class="banner">
+
+      <div class="container">
+
+        <div class="slider-container has-scrollbar">
+
+          <div class="slider-item">
+
+            <img src="./assets/images/ban1.JPEG" alt="Bienvenidos a nuestra tienda online." class="banner-img">
+
+            <div class="banner-content">
+
+              <p class="banner-subtitle">Las mejores ofertas</p>
+
+              <h2 class="banner-title">Las camisetas mas pedidas.</h2>
+
+              <p class="banner-text">
+                Desde &dollar; <b>20.000</b>
+              </p>
+
+              <a href="#" class="banner-btn">Compra YA</a>
+
+            </div>
+
+          </div>
+
+          <div class="slider-item">
+
+            <img src="./assets/images/seleccion.jpg" alt="seleccion Argentina" class="banner-img">
+
+            <div class="banner-content">
+
+              <p class="banner-subtitle">Equipos Sensacion</p>
+
+              <h2 class="banner-title">Los mejores del mundo</h2>
+
+              <p class="banner-text">
+                starting at &dollar; <b>15.000</b>
+              </p>
+
+              <a href="#" class="banner-btn">Compra YA</a>
+
+            </div>
+
+          </div>
+
+          <div class="slider-item">
+
+            <img src="./assets/images/remerasmundiales.jpg" alt="Ultimas equipaciones" class="banner-img">
+
+            <div class="banner-content">
+
+              <p class="banner-subtitle">Grandes Promos</p>
+
+              <h2 class="banner-title">Ofertas que queman</h2>
+
+              <p class="banner-text">
+                starting at &dollar; <b>29.000</b>
+              </p>
+
+              <a href="#" class="banner-btn">Compra YA</a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <!--
+      - CATEGORY
+    -->
+
+    <div class="category">
+
+      <div class="container">
+
+        <div class="category-item-container has-scrollbar">
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/argen.svg" alt="remera argentina" width="80">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Remera de Argentina</h3>
+
+                <p class="category-item-amount">(91)</p>
+              </div>
+
+              <a href="#" class="category-btn">Talle L</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/ball.svg" alt="pelotas" width="80">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Pelotas</h3>
+
+                <p class="category-item-amount">(20)</p>
+              </div>
+
+              <a href="#" class="category-btn">LPF</a>
+
+            </div>
+
+          </div>
+
+          <div class="category-item">
+
+            <div class="category-img-box">
+              <img src="./assets/images/icons/estadio.svg" alt="Maquetas" width="80">
+            </div>
+
+            <div class="category-content-box">
+
+              <div class="category-content-flex">
+                <h3 class="category-item-title">Miniaturas</h3>
+
+                <p class="category-item-amount">(18)</p>
+              </div>
+
+              <a href="#" class="category-btn">Canchas con AURA</a>
+
+            </div>
+
+          </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!--
+      - PRODUCT
+    -->
+
+    <div class="product-container">
+
+      <div class="container">
+
+
+        <!--
+          - SIDEBAR
+        -->
+
+        <div class="sidebar  has-scrollbar" data-mobile-menu>
+
+          <div class="sidebar-category">
+
+            <div class="sidebar-top">
+              <h2 class="sidebar-title">Categorias</h2>
+
+              <button class="sidebar-close-btn" data-mobile-menu-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </div>
+
+            <ul class="sidebar-menu-category-list">
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/pelota2.ico" alt="Pelota de futbol" width="20" height="20"
+                      class="menu-title-img">
+
+                    <p class="menu-title">Pelotas</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Shirt</p>
+                      <data value="300" class="stock" title="Available Stock">300</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">shorts & jeans</p>
+                      <data value="60" class="stock" title="Available Stock">60</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">jacket</p>
+                      <data value="50" class="stock" title="Available Stock">50</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">dress & frock</p>
+                      <data value="87" class="stock" title="Available Stock">87</data>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </li>
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/canchas.svg" alt="Estadio de futbol" class="menu-title-img" width="20"
+                      height="20">
+
+                    <p class="menu-title">Estadios</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Sports</p>
+                      <data value="45" class="stock" title="Available Stock">45</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Formal</p>
+                      <data value="75" class="stock" title="Available Stock">75</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Casual</p>
+                      <data value="35" class="stock" title="Available Stock">35</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Safety Shoes</p>
+                      <data value="26" class="stock" title="Available Stock">26</data>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </li>
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/remeras.svg" alt="Camisetas de futbol" class="menu-title-img" width="20"
+                      height="20">
+
+                    <p class="menu-title">Camisetas</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Earrings</p>
+                      <data value="46" class="stock" title="Available Stock">46</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Couple Rings</p>
+                      <data value="73" class="stock" title="Available Stock">73</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Necklace</p>
+                      <data value="61" class="stock" title="Available Stock">61</data>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </li>
+
+            
+
+            </ul>
+
+          </div>
+
+          <div class="product-showcase">
+
+            <h3 class="showcase-heading">Mejores Atuendos</h3>
+
+            <div class="showcase-wrapper">
+
+              <div class="showcase-container">
+
+                <div class="showcase">
+
+                  <a href="#" class="showcase-img-box">
+                    <img src="./assets/images/products/remeras/alternativa/europa/remera liverpool alternativa 26.JPEG" alt="remera alternativa liverpool 2026" width="75" height="75"
+                      class="showcase-img">
+                  </a>
+
+                  <div class="showcase-content">
+
+                    <a href="#">
+                      <h4 class="showcase-title">Liverpool 26/27</h4>
+                    </a>
+
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <div class="price-box">
+                      <del>$20.000</del>
+                      <p class="price">$16.000</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="showcase">
+
+                  <a href="#" class="showcase-img-box">
+                    <img src="./assets/images/products/remeras/alternativa/argentina/remera CARP alternativa 26.JPEG" alt="Remera tricolor de river 2026" class="showcase-img"
+                      width="75" height="75">
+                  </a>
+
+                  <div class="showcase-content">
+
+                    <a href="#">
+                      <h4 class="showcase-title">Trico de River 26/27</h4>
+                    </a>
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half-outline"></ion-icon>
+                    </div>
+
+                    <div class="price-box">
+                      <del>$91.218</del>
+                      <p class="price">$14.318</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="showcase">
+
+                  <a href="#" class="showcase-img-box">
+                    <img src="./assets/images/products/remeras/alternativa/ascenso/remera albo 26.JPEG" alt="remera de all boys" class="showcase-img" width="75"
+                      height="75">
+                  </a>
+
+                  <div class="showcase-content">
+
+                    <a href="#">
+                      <h4 class="showcase-title">La del albo Malvinas</h4>
+                    </a>
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half-outline"></ion-icon>
+                    </div>
+
+                    <div class="price-box">
+                      <del>$18.000</del>
+                      <p class="price">$10.000</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="showcase">
+
+                  <a href="#" class="showcase-img-box">
+                    <img src="./assets/images/products/remeras/alternativa/paises/remera argentina 26.JPEG" alt="remera de Argentina" class="showcase-img" width="75"
+                      height="75">
+                  </a>
+
+                  <div class="showcase-content">
+
+                    <a href="#">
+                      <h4 class="showcase-title">Duele Qatar</h4>
+                    </a>
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <div class="price-box">
+                      <del>Solo eran 2</del>
+                      <p class="price">AHORA SON 3</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="product-box">
+
+          <!--
+            - PRODUCT MINIMAL
+          -->
+
+          <div class="product-minimal">
+
+            <div class="product-showcase">
+
+              <h2 class="title">Infaltables</h2>
+
+              <div class="showcase-wrapper has-scrollbar">
+
+                <div class="showcase-container">
+
+                  <div class="showcase">
+
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/pelotas/pelota CL 26.JPEG" alt="Pelota estrellada Champions League 2026" width="70" class="showcase-img">
+                    </a>
+
+                    <div class="showcase-content">
+
+                      <a href="#">
+                        <h4 class="showcase-title">Champions League gris 26</h4>
+                      </a>
+
+                      <a href="#" class="showcase-category">Balones</a>
+
+                      <div class="price-box">
+                        <p class="price">$12.000</p>
+                        <del>$20.000</del>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="showcase">
+                  
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/remeras/alternativa/paises/remera alemania 26.JPEG" alt="Remera seleccion Alemania 2026" class="showcase-img" width="70">
+                    </a>
+                  
+                    <div class="showcase-content">
+                  
+                      <a href="#">
+                        <h4 class="showcase-title">Die Mannschaft</h4>
+                      </a>
+                  
+                      <a href="#" class="showcase-category">Remeras</a>
+                  
+                      <div class="price-box">
+                        <p class="price">$61.000</p>
+                        <del>$70.500</del>
+                      </div>
+                  
+                    </div>
+                  
+                  </div>
+
+                  <div class="showcase">
+                  
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/maquetas/chiquero.JPEG" alt="Cancha miniatura de boca" class="showcase-img"
+                        width="70">
+                    </a>
+                  
+                    <div class="showcase-content">
+                  
+                      <a href="#">
+                        <h4 class="showcase-title">Asi como ellos</h4>
+                      </a>
+                  
+                      <a href="#" class="showcase-category">Miniaturas</a>
+                  
+                      <div class="price-box">
+                        <p class="price">$31.912</p>
+                        <del>$91.218>
+                      </div>
+                  
+                    </div>
+                  
+                  </div>
+
+                  <div class="showcase">
+                  
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/pelotas/pelota libertadores 26.JPEG" alt="pelota copa libertadores 2026" class="showcase-img"
+                        width="70">
+                    </a>
+                  
+                    <div class="showcase-content">
+                  
+                      <a href="#">
+                        <h4 class="showcase-title">Copa Libertadores 26</h4>
+                      </a>
+                  
+                      <a href="#" class="showcase-category">Balones</a>
+                  
+                      <div class="price-box">
+                        <p class="price">$50.000</p>
+                        <del>$64.000</del>
+                      </div>
+                  
+                    </div>
+                  
+                  </div>
+
+                </div>
+
+                <div class="showcase-container">
+                
+                  <div class="showcase">
+                
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/remeras/alternativa/ascenso/remera AB 26.JPEG" alt="Remera Almirante Brown" class="showcase-img"
+                        width="70">
+                    </a>
+                
+                    <div class="showcase-content">
+                
+                      <a href="#">
+                        <h4 class="showcase-title">La Fragata</h4>
+                      </a>
+                
+                      <a href="#" class="showcase-category">Remeras</a>
+                
+                      <div class="price-box">
+                        <p class="price">20.000</p>
+                        <del>$30.000</del>
+                      </div>
+                
+                    </div>
+                
+                  </div>
+                
+                  <div class="showcase">
+                
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/pelotas/pelota SA 26.JPEG" alt="Pelota Serie" class="showcase-img"
+                        width="70">
+                    </a>
+                
+                    <div class="showcase-content">
+                
+                      <a href="#">
+                        <h4 class="showcase-title">Pelota Seria A 26/27</h4>
+                      </a>
+                
+                      <a href="#" class="showcase-category">Balones</a>
+                
+                      <div class="price-box">
+                        <p class="price">$32.000</p>
+                        <del>$38.000</del>
+                      </div>
+                
+                    </div>
+                
+                  </div>
+                
+                  <div class="showcase">
+                
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/maquetas/bernabeu 912.JPEG" alt="Estadio del Real Madrid" class="showcase-img"
+                        width="70">
+                    </a>
+                
+                    <div class="showcase-content">
+                
+                      <a href="#">
+                        <h4 class="showcase-title">Como en Madrid</h4>
+                      </a>
+                
+                      <a href="#" class="showcase-category">Miniaturas</a>
+                
+                      <div class="price-box">
+                        <p class="price">$30.000</p>
+                        <del>$35.000</del>
+                      </div>
+                
+                    </div>
+                
+                  </div>
+                
+                  <div class="showcase">
+                
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/remeras/alternativa/paises/remera portugal 26.JPEG" alt="Remera de Portugal" class="showcase-img"
+                        width="70">
+                    </a>
+                
+                    <div class="showcase-content">
+                
+                      <a href="#">
+                        <h4 class="showcase-title">La 7 SIUUUU</h4>
+                      </a>
+                
+                      <a href="#" class="showcase-category">Remeras</a>
+                
+                      <div class="price-box">
+                        <p class="price">$77.777</p>
+                        <del>$90.000</del>
+                      </div>
+                
+                    </div>
+                
+                  </div>
+                
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="product-showcase">
+            
+              <h2 class="title">Coleccion</h2>
+            
+              <div class="showcase-wrapper  has-scrollbar">
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/remeras/alternativa/paises/remera bolivia 26.JPEG" alt="Camiseta de Bolivia" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">La verde</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Remeras</a>
+            
+                      <div class="price-box">
+                        <p class="price">$15.000</p>
+                        <del>$25.000</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/maquetas/anfield.JPEG" alt="Cancha del Liverpool" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Anfield</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Miniaturas</a>
+            
+                      <div class="price-box">
+                        <p class="price">$20.000</p>
+                        <del>$36.000</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/pelotas/pelota mundial 26.JPEG" alt="Pelota Mundial 2026" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Mundial 2026</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Balones</a>
+            
+                      <div class="price-box">
+                        <p class="price">$34.000</p>
+                        <del>$42.000</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/remeras/alternativa/europa/remera inter alternativa 26.JPEG" alt="Remera alternativa del Inter de Milan 26/27" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Inter alternativa 26/27</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Remeras</a>
+            
+                      <div class="price-box">
+                        <p class="price">$54.000</p>
+                        <del>$65.000</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                </div>
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/remeras/alternativa/europa/remera BD alternativa 26.JPEG" alt="Remera alternativa de Borussia Dortmund 26/27" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Alternativa del Borussia</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Remeras</a>
+            
+                      <div class="price-box">
+                        <p class="price">$52.000</p>
+                        <del>$55.000</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/maquetas/villa park.JPEG" alt="Estadio del Aston Villa" class="showcase-img" width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Villa Park del Dibu</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Miniaturas</a>
+            
+                      <div class="price-box">
+                        <p class="price">$23.000</p>
+                        <del>$30.000</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/pelotas/pelota EL 26.JPEG" alt="Pelota de Europa League 26/27" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Europa League 26/27</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Balones</a>
+            
+                      <div class="price-box">
+                        <p class="price">$56.000</p>
+                        <del>$78.000</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/remeras/alternativa/ascenso/remera acassuso 26.JPEG" alt="Camiseta de Acassuso" class="showcase-img" width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Camiseta de Acassuso 2026</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Remeras</a>
+            
+                      <div class="price-box">
+                        <p class="price">$25.000</p>
+                        <del>$35.000</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                </div>
+            
+              </div>
+            
+            </div>
+
+            <div class="product-showcase">
+            
+              <h2 class="title">Top Desconocidas</h2>
+            
+              <div class="showcase-wrapper  has-scrollbar">
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/remeras/alternativa/paises/remera CVE 26.JPEG" alt="Camiseta de Cabo Verde" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Cabo Verde Mundial 2026</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Remeras</a>
+            
+                      <div class="price-box">
+                        <p class="price">$24.000</p>
+                        <del>$34.000</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/remeras/alternativa/europa/remera fiorentina alternativa 26.JPEG" alt="Camiseta alternativa de la Fiorentina 26/27" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Alternativa Fiorentina 26</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Remeras</a>
+            
+                      <div class="price-box">
+                        <p class="price">$24.000</p>
+                        <del>$30.000</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/remeras/alternativa/argentina/remera CAI alternativa 26.JPEG" alt="Camiseta alternativa de Independiente" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Independiente 26</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Remeras</a>
+            
+                      <div class="price-box">
+                        <p class="price">$42.000</p>
+                        <del>$70.000</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/remeras/alternativa/europa/remera BL alternativa 26.JPEG" alt="Camiseta Bayern Leverkusen 26" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">El segundo Bayern</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Remeras</a>
+            
+                      <div class="price-box">
+                        <p class="price">$24.000</p>
+                        <del>$30.000</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                </div>
+            
+                <div class="showcase-container">
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/remeras/alternativa/paises/remera CDS 26.JPEG" alt="Camiseta de Corea del Sur" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Corea del Sur Mundial 2026</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Remeras</a>
+            
+                      <div class="price-box">
+                        <p class="price">$62.000</p>
+                        <del>$65.000</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/remeras/alternativa/argentina/remera CASLA alternativa 26.JPEG" alt="Camiseta alternativa San Lorenzo" class="showcase-img" width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">La del cuervo de...</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Remeras</a>
+            
+                      <div class="price-box">
+                        <p class="price">$56.000</p>
+                        <del>$78.000</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/remeras/alternativa/europa/remera OL alternativa 26.JPEG" alt="Camiseta alternativa del Lyon 26/27" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">Lyon 26/27</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Remeras</a>
+            
+                      <div class="price-box">
+                        <p class="price">$20.000</p>
+                        <del>$30.000</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="#" class="showcase-img-box">
+                      <img src="./assets/images/products/remeras/alternativa/ascenso/remera DM 26.JPEG" alt="Camiseta Deportivo Moron" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="#">
+                        <h4 class="showcase-title">El gallito de Moron</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category">Remeras</a>
+            
+                      <div class="price-box">
+                        <p class="price">$20.000</p>
+                        <del>$30.000</del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                </div>
+            
+              </div>
+            
+            </div>
+
+          </div>
+
+
+
+          <!--
+            - PRODUCT FEATURED
+          -->
+
+          <div class="product-featured">
+
+            <h2 class="title">Producto Estrella</h2>
+
+            <div class="showcase-wrapper has-scrollbar">
+
+              <div class="showcase-container">
+
+                <div class="showcase">
+                  
+                  <div class="showcase-banner">
+                    <img src="./assets/images/products/remeras/alternativa/europa/remera RM alternativa 26.JPEG" alt="Camiseta alternativa Real Madrid 26/27" class="showcase-img">
+                  </div>
+
+                  <div class="showcase-content">
+                    
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+
+                    <a href="#">
+                      <h3 class="showcase-title">Real Madrid alternativa 26/27</h3>
+                    </a>
+
+                    <p class="showcase-desc">
+                      Talle XL, la del Rey de Europa es imposible que no la quieras </p>
+                     <p> Veni que te esta esperando
+                    </p>
+
+                    <div class="price-box">
+                      <p class="price">$90.000</p>
+
+                      <del>$100.000</del>
+                    </div>
+
+                    <button class="add-cart-btn">Comprala Ya</button>
+
+                    <div class="showcase-status">
+                      <div class="wrapper">
+                        <p>
+                          Solo quedan: <b>20</b>
+                        </p>
+
+                        <p>
+                          Vendimos: <b>+100</b>
+                        </p>
+                      </div>
+
+                      <div class="showcase-status-bar"></div>
+                    </div>
+
+                    <div class="countdown-box">
+
+                      <p class="countdown-desc">
+                        Rapido que vuelan:
+                      </p>
+
+                      <div class="countdown">
+
+                        <div class="countdown-content">
+
+                          <p class="display-number">15</p>
+
+                          <p class="display-text">Dias</p>
+
+                        </div>
+
+                        <div class="countdown-content">
+                          <p class="display-number">13</p>
+                          <p class="display-text">Horas</p>
+                        </div>
+
+                        <div class="countdown-content">
+                          <p class="display-number">20</p>
+                          <p class="display-text">Min</p>
+                        </div>
+
+                        <div class="countdown-content">
+                          <p class="display-number">29</p>
+                          <p class="display-text">Seg</p>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="showcase-container">
+              
+                <div class="showcase">
+              
+                  <div class="showcase-banner">
+                    <img src="./assets/images/products/remeras/alternativa/europa/remera barcelona alternativa 26.JPEG" alt="Remera alternativa del Barcelona 26/27" class="showcase-img">
+                  </div>
+              
+                  <div class="showcase-content">
+              
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+              
+                    <h3 class="showcase-title">
+                      <a href="#" class="showcase-title">Barcelona alternativa 26/27</a>
+                    </h3>
+              
+                    <p class="showcase-desc">
+                      El equipo de moda que regreso al Tiki Taka tampoco se queda atras </p>
+                      <p>Vuelan tan rapido como en la cancha
+                    </p>
+              
+                    <div class="price-box">
+                      <p class="price">$90.000</p>
+                      <del>$100.000</del>
+                    </div>
+              
+                    <button class="add-cart-btn">COMPRALA YA</button>
+              
+                    <div class="showcase-status">
+                      <div class="wrapper">
+                        <p> SOLO QUEDAN: <b>15</b> </p>
+              
+                        <p> VENDIMOS: <b>+100</b> </p>
+                      </div>
+              
+                      <div class="showcase-status-bar"></div>
+                    </div>
+              
+                    <div class="countdown-box">
+              
+                      <p class="countdown-desc">RAPIDO QUE VUELAN:</p>
+              
+                      <div class="countdown">
+                        <div class="countdown-content">
+                          <p class="display-number">15</p>
+                          <p class="display-text">Dias</p>
+                        </div>
+              
+                        <div class="countdown-content">
+                          <p class="display-number">13</p>
+                          <p class="display-text">Horas</p>
+                        </div>
+              
+                        <div class="countdown-content">
+                          <p class="display-number">20</p>
+                          <p class="display-text">Min</p>
+                        </div>
+              
+                        <div class="countdown-content">
+                          <p class="display-number">29</p>
+                          <p class="display-text">Seg</p>
+                        </div>
+                      </div>
+              
+                    </div>
+              
+                  </div>
+              
+                </div>
+              
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+          <!--
+            - PRODUCT GRID
+          -->
+
+          <div class="product-main">
+
+            <h2 class="title">Nuevos</h2>
+
+            <div class="product-grid">
+
+              <div class="showcase">
+
+                <div class="showcase-banner">
+
+                  <img src="./assets/images/products/pelotas/pelota LPF 26.JPEG" alt="La pelota de los Campeones del MUNDO" width="300" class="product-img default">
+                  <img src="./assets/images/products/pelotas/pelota LPF2.JPEG" alt="La pelota de los Campeones del MUNDO" width="300" class="product-img hover">
+
+                  <p class="showcase-badge">15%</p>
+
+                  <div class="showcase-actions">
+
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+                <div class="showcase-content">
+
+                  <a href="#" class="showcase-category">Balones</a>
+
+                  <a href="#">
+                    <h3 class="showcase-title">Pelota de la Liga Profesional de Futbol</h3>
+                  </a>
+
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+
+                  <div class="price-box">
+                    <p class="price">$48.000</p>
+                    <del>$75.000</del>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <img src="./assets/images/products/maquetas/roma.JPEG" alt="Estadio Olimpico de Roma" class="product-img default"
+                    width="300">
+                  <img src="./assets/images/products/maquetas/roma2.jpeg" alt="Estadio Olimpico de Roma" class="product-img hover"
+                    width="300">
+              
+                  <p class="showcase-badge angle black">Ultimos</p>
+              
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Miniaturas</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">Estadio Olimpico de Roma</a>
+                  </h3>
+              
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+              
+                  <div class="price-box">
+                    <p class="price">$45.000</p>
+                    <del>$56.000</del>
+                  </div>
+              
+                </div>
+              
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <img src="./assets/images/products/remeras/alternativa/paises/remera marruecos 26.JPEG" alt="Remera de Marruecos" class="product-img default"
+                    width="300">
+                  <img src="./assets/images/products/remeras/alternativa/paises/remera marruecos2 26.JPEG" alt="Remera de Marruecos" class="product-img hover"
+                    width="300">
+              
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Remeras</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">Marrecos Mundial 2026</a>
+                  </h3>
+              
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+              
+                  <div class="price-box">
+                    <p class="price">$58.000</p>
+                    <del>$65.000</del>
+                  </div>
+              
+                </div>
+              
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <img src="./assets/images/products/remeras/alternativa/europa/remera ASM alternativa 26.JPEG" alt="Remera alternativa del AS Monaco" class="product-img default"
+                    width="300">
+                  <img src="./assets/images/products/remeras/alternativa/europa/remera ASM alternativa2 26.JPEG" alt="Remera alternativa del AS Monaco" class="product-img hover"
+                    width="300">
+              
+                  <p class="showcase-badge angle pink">Nuevo</p>
+              
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Remeras</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">AS Monaco alternativa 26/27</a>
+                  </h3>
+              
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+              
+                  <div class="price-box">
+                    <p class="price">$25.000</p>
+                    <del>$35.000</del>
+                  </div>
+              
+                </div>
+              
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <img src="./assets/images/products/remeras/alternativa/europa/Remera arsenal alternativa 26.JPEG" alt="Camiseta alternativa del Arsenal" class="product-img default"
+                    width="300">
+                  <img src="./assets/images/products/remeras/alternativa/europa/Remera arsenal alternativa2 26.JPEG" alt="Camiseta alternativa del Arsenal" class="product-img hover"
+                    width="300">
+              
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Elegante</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">Arsenal alternativa 26/27</a>
+                  </h3>
+              
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+              
+                  <div class="price-box">
+                    <p class="price">$99.000</p>
+                    <del>$105.000</del>
+                  </div>
+              
+                </div>
+              
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <img src="./assets/images/products/remeras/alternativa/europa/remara tottenham alternativa 26.JPEG" alt="Remera alternativa del Tottenham 26/27" class="product-img default"
+                    width="300">
+                  <img src="./assets/images/products/remeras/alternativa/europa/remara tottenham alternativa2 26.JPEG" alt="Remrea alternativa del Tottenham 26/27" class="product-img hover"
+                    width="300">
+              
+                  <p class="showcase-badge angle black">Ultimos</p>
+              
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Remeras</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">Tottenham alternativa negra 26/27</a>
+                  </h3>
+              
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+              
+                  <div class="price-box">
+                    <p class="price">$70.000</p>
+                    <del>$90.000</del>
+                  </div>
+              
+                </div>
+              
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <img src="./assets/images/products/remeras/alternativa/europa/remera MC alternativa 26.JPEG" alt="Alternativa blanca del Manchester City 26/27" class="product-img default"
+                    width="300">
+                  <img src="./assets/images/products/remeras/alternativa/europa/remera MC alternativa2 26.JPEG" alt="Alternativa blanca del Manchester City 26/27" class="product-img hover" width="300">
+              
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Remeras</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">Manchester City 26/27</a>
+                  </h3>
+              
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+              
+                  <div class="price-box">
+                    <p class="price">$100.000</p>
+                    <del>$120.000</del>
+                  </div>
+              
+                </div>
+              
+              </div>
+
+              <div class="showcase">
+              
+                <div class="showcase-banner">
+                  <img src="./assets/images/products/remeras/alternativa/europa/remera BM alternativa 26.JPEG" alt="Remera alternativa del Bayern Munich 2026" class="product-img default"
+                    width="300">
+                  <img src="./assets/images/products/remeras/alternativa/europa/remera BM alternativa2 26.JPEG" alt="Remera alternativa del Bayern Munich 2026" class="product-img hover"
+                    width="300">
+              
+                  <p class="showcase-badge angle black">Ultimos</p>
+              
+                  <div class="showcase-actions">
+                    <button class="btn-action">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="repeat-outline"></ion-icon>
+                    </button>
+              
+                    <button class="btn-action">
+                      <ion-icon name="bag-add-outline"></ion-icon>
+                    </button>
+                  </div>
+                </div>
+              
+                <div class="showcase-content">
+                  <a href="#" class="showcase-category">Remeras</a>
+              
+                  <h3>
+                    <a href="#" class="showcase-title">Bayern Munich alternativa 26/27</a>
+                  </h3>
+              
+                  <div class="showcase-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                  </div>
+              
+                  <div class="price-box">
+                    <p class="price">$25.000</p>
+                    <del>$30.000</del>
+                  </div>
+              
+                </div>
+              
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <!--
+      - TESTIMONIALS, CTA & SERVICE
+    -->
+
+    <div>
+
+      <div class="container">
+
+        <div class="testimonials-box">
+
+          <!--
+            - TESTIMONIALS
+          -->
+
+          <div class="testimonial">
+
+            <h2 class="title">Reseñas y Opiniones</h2>
+
+            <div class="testimonial-card">
+
+              <img src="./assets/images/messi.jpg" alt="Lionel Messi" class="testimonial-banner" width="80" height="80">
+
+              <p class="testimonial-name">Leo Messi</p>
+
+              <p class="testimonial-title">El mejor de TODOS los tiempos</p>
+
+              
+              <p class="testimonial-desc">
+               ESTA TIENDA TIENE DE TODO, GRAN CALIDAD, GRAN ATENCION, GRANDES PRECIOS, ME QUEDE FASCINADO
+              </p>
+
+            </div>
+
+          </div>
+
+
+
+          <!--
+            - CTA
+          -->
+
+          <div class="cta-container">
+
+            <img src="./assets/images/promo.jpg" alt="Promocion de camisetas 4x3" class="cta-banner">
+
+            </a>
+
+          </div>
+
+
+
+          <!--
+            - SERVICE
+          -->
+
+          <div class="service">
+
+            <h2 class="title">Nuestros Servicios</h2>
+
+            <div class="service-container">
+
+              <a href="#" class="service-item">
+
+                <div class="service-icon">
+                  <ion-icon name="boat-outline"></ion-icon>
+                </div>
+
+                <div class="service-content">
+
+                  <h3 class="service-title">Envios a domicilios</h3>
+                  <p class="service-desc">Con tu compra superior a $150.000</p>
+
+                </div>
+
+              </a>
+
+              <a href="#" class="service-item">
+              
+                <div class="service-icon">
+                  <ion-icon name="rocket-outline"></ion-icon>
+                </div>
+              
+                <div class="service-content">
+              
+                  <h3 class="service-title">Entrega Ya</h3>
+                  <p class="service-desc">Solo pedidos del Gran Buenos Aires</p>
+              
+                </div>
+              
+              </a>
+
+              <a href="#" class="service-item">
+              
+                <div class="service-icon">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+              
+                <div class="service-content">
+              
+                  <h3 class="service-title">Pagina Web</h3>
+                  <p class="service-desc">24 Horas, 364 dias</p>
+              
+                </div>
+              
+              </a>
+
+              <a href="#" class="service-item">
+              
+                <div class="service-icon">
+                  <ion-icon name="arrow-undo-outline"></ion-icon>
+                </div>
+              
+                <div class="service-content">
+              
+                  <h3 class="service-title">Devoluciones</h3>
+                  <p class="service-desc">Rapida y Gratuita. Solo por desperfectos de fabrica. 3 dias habiles desde que el pedido llegara a destino</p>
+              
+                </div>
+              
+              </a>
+
+              <a href="#" class="service-item">
+              
+                <div class="service-icon">
+                  <ion-icon name="ticket-outline"></ion-icon>
+                </div>
+              
+                <div class="service-content">
+              
+                  <h3 class="service-title">Descuentos</h3>
+                  <p class="service-desc">Para compras mayores a $100.000</p>
+              
+                </div>
+              
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <!--
+      - BLOG
+    -->
+
+    <div class="blog">
+
+      <div class="container">
+
+        <div class="blog-container has-scrollbar">
+
+          <div class="blog-card">
+
+            <a href="#">
+              <img src="./assets/images/products/remeras/alternativa/argentina/remera CABJ alternativa 26.JPEG" alt="Remera alternativa de Boca Juniors, blanca con rayas negras 26/27" width="300" class="blog-banner">
+            </a>
+
+            <div class="blog-content">
+
+              <a href="#" class="blog-category">Remeras</a>
+
+              <a href="#">
+                <h3 class="blog-title">Nueva camiseta del xeneize. Los origenes del club y su estreno ante Velez por Copa Argentina</h3>
+              </a>
+
+              <p class="blog-meta">
+                By <cite>TyCSports</cite> / <time datetime="2026-08-31">Aug 31, 2026</time>
+              </p>
+
+            </div>
+
+          </div>
+
+          <div class="blog-card">
+          
+            <a href="#">
+              <img src="./assets/images/products/pelotas/pelota mundial 26.JPEG" alt="Pelota del Mundial 2026."
+                class="blog-banner" width="300">
+            </a>
+          
+            <div class="blog-content">
+          
+              <a href="#" class="blog-category">Balones</a>
+          
+              <h3>
+                <a href="#" class="blog-title">Nuevo balon mundialista TRIONDA, una escencia mexicana, canadiendse y estaunidense combinadas en un balon.</a>
+              </h3>
+          
+              <p class="blog-meta">
+                By <cite>TyCsports</cite> / <time datetime="2026-07-19">Jul 19, 2026</time>
+              </p>
+          
+            </div>
+          
+          </div>
+
+          <div class="blog-card">
+          
+            <a href="#">
+              <img src="./assets/images/products/maquetas/psg.JPEG" alt="Estadio Paris Saint Germain."
+                class="blog-banner" width="300">
+            </a>
+          
+            <div class="blog-content">
+          
+              <a href="#" class="blog-category">Estadios</a>
+          
+              <h3>
+                <a href="#" class="blog-title">Como hizo el PSG para dejar su antiguo estadio y tener uno propio.</a>
+              </h3>
+          
+              <p class="blog-meta">
+                By <cite>TyCSports</cite> / <time datetime="2024-03-09">Mar 09, 2026</time>
+              </p>
+          
+            </div>
+          
+          </div>
+
+          <div class="blog-card">
+          
+            <a href="#">
+              <img src="./assets/images/botines.jpg" alt="Botines dorados Nike."
+                class="blog-banner" width="300">
+            </a>
+          
+            <div class="blog-content">
+          
+              <a href="#" class="blog-category">Efemerides</a>
+          
+              <h3>
+                <a href="#" class="blog-title">20 años de la presentacion mas iconica de la historia.</a>
+              </h3>
+          
+              <p class="blog-meta">
+                By <cite>412</cite> / <time datetime="2025-09-15">Sep 15, 2025</time>
+              </p>
+          
+            </div>
+          
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+
+
+
+
+  <!--
+    - FOOTER
+  -->
+
+  <footer>
+
+    <div class="footer-category">
+
+      <div class="container">
+
+        <h2 class="footer-category-title">Analisis</h2>
+
+        <div class="footer-category-box">
+
+          <h3 class="category-box-title">This Work :</h3>
+
+          <a href="#" class="footer-category-link">Fue algo</a>
+          <a href="#" class="footer-category-link">Complicado</a>
+          <a href="#" class="footer-category-link">De hacer</a>
+          <a href="#" class="footer-category-link">Sobre todo</a>
+          <a href="#" class="footer-category-link">Por la</a>
+          <a href="#" class="footer-category-link">Inexperiencia</a>
+        </div>
+
+        <div class="footer-category-box">
+          <h3 class="category-box-title">footwear :</h3>
+        
+          <a href="#" class="footer-category-link">sport</a>
+          <a href="#" class="footer-category-link">football</a>
+          <a href="#" class="footer-category-link">Nike</a>
+          <a href="#" class="footer-category-link">Ronaldinho</a>
+          <a href="#" class="footer-category-link">Magia Carioca</a>
+          
+        </div>
+
+        <div class="footer-category-box">
+          <h3 class="category-box-title">T-shirts :</h3>
+        
+          <a href="#" class="footer-category-link">River</a>
+          <a href="#" class="footer-category-link">Boca</a>
+          <a href="#" class="footer-category-link">Real Madrid</a>
+          <a href="#" class="footer-category-link">Barcelona</a>
+          <a href="#" class="footer-category-link">Bayern Muninch</a>
+          <a href="#" class="footer-category-link">Borussia Dortmund</a>
+          
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <div class="footer-nav">
+
+      <div class="container">
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Popular Categories</h2>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Football</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Sports</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Champions League</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Mundial</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Products</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">T-shirts</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Balls</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Stadium models</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Our Company</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">New</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Innovative</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Nearby</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">The best payment</a>
+          </li>
+        
+        </ul>
+
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Contact</h2>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address class="content">
+              209 Room, Alem, JCP, Bs.As, Argentina
+            </address>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <a href="tel:+607936-8058" class="footer-nav-link">(123) 456-7890</a>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <a href="mailto:example@gmail.com" class="footer-nav-link">avalos.maxi.05@gmail.com</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Follow Us</h2>
+          </li>
+
+          <li>
+            <ul class="social-link">
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <div class="container">
+
+        <img src="./assets/images/payment.png" alt="payment method" class="payment-img">
+
+        <p class="copyright">
+          Copyright &copy; <a href="#">TiendaBol</a> all rights reserved.
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
